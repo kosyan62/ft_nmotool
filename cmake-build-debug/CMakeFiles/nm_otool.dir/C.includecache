@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mgena/CLionProjects/nm-otool/header.h
+libft/libft.h
+/Users/mgena/CLionProjects/nm-otool/libft/libft.h
+mach-o/loader.h
+-
+mach-o/nlist.h
+-
+
+/Users/mgena/CLionProjects/nm-otool/libft/libft.h
+unistd.h
+-
+stdlib.h
+-
+stdarg.h
+-
+
+/Users/mgena/CLionProjects/nm-otool/segment_letter.c
+header.h
+/Users/mgena/CLionProjects/nm-otool/header.h
+
