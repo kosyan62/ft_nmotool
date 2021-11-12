@@ -16,7 +16,7 @@ char	*ft_for_string(va_list ap, t_specif spec)
 {
 	char	*tmp;
 
-	tmp = va_arg(ap, char*);
+	tmp = va_arg(ap, char *);
 	if (tmp == NULL)
 	{
 		free(tmp);

@@ -12,13 +12,21 @@
 
 #include "libft.h"
 
+int	stupid_function_for_25_lines_without_ternary(int n)
+{
+	if (n < 0)
+		return (1);
+	else
+		return (0);
+}
+
 char	*ft_itoa(int n)
 {
 	int		d;
 	char	*res;
 
 	d = ft_countdigits(n);
-	d = (n < 0) ? ++d : d;
+	d += stupid_function_for_25_lines_without_ternary(n);
 	res = ft_strnew(d);
 	if (res == NULL)
 		return (NULL);

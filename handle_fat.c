@@ -1,4 +1,4 @@
-#include "header.h"
+#include "ft_nm.h"
 #include "parse_macho/parse_macho.h"
 #include <mach-o/fat.h>
 #include <stdio.h>

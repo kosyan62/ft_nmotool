@@ -1,6 +1,6 @@
 #include "libft.h"
 
-void	ft_bubble_sort(void **array, size_t len, int(*func)(void*, void*))
+void	ft_bubble_sort(void **array, size_t len, int(*func)(void *, void *))
 {
 	size_t	i;
 	size_t	k;

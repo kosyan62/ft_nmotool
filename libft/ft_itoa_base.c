@@ -13,7 +13,7 @@
 #include "libftprintf.h"
 #include <stdint.h>
 
-int		ft_countdigits_base(__int128_t n, int base)
+int	ft_countdigits_base(__int128_t n, int base)
 {
 	int		res;
 

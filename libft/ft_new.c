@@ -14,8 +14,8 @@
 
 const char	*search_flags(const char *str, t_specif *spec)
 {
-	while (*str == '#' || *str == '0' || *str == '-' || *str == '+' ||
-			*str == ' ')
+	while (*str == '#' || *str == '0' || *str == '-' || *str == '+' || \
+	*str == ' ')
 	{
 		if (*str == '#')
 			spec->sharp = 1;
@@ -100,8 +100,8 @@ const char	*search_size(const char *str, t_specif *spec)
 
 const char	*search_type(const char *str, t_specif *spec)
 {
-	if (*str == 'c' || *str == 'd' || *str == 'i' || *str == 'f' ||
-	*str == 'o' || *str == 's' || *str == 'u' || *str == 'x' ||
+	if (*str == 'c' || *str == 'd' || *str == 'i' || *str == 'f' || \
+	*str == 'o' || *str == 's' || *str == 'u' || *str == 'x' || \
 	*str == 'X' || *str == 'p' || *str == '%')
 		spec->type = *str;
 	else

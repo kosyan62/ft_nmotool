@@ -42,7 +42,7 @@ char				**ft_strsplit(char const *s, char c)
 	if (s == NULL)
 		return (NULL);
 	s = ft_jump(s, c);
-	res = ft_memalloc(sizeof(char*) * ft_wordcount(s, c) + 1);
+	res = ft_memalloc(sizeof(char *) * ft_wordcount(s, c) + 1);
 	if (res == NULL)
 		return (NULL);
 	k = 0;

@@ -1,4 +1,4 @@
-#include "header.h"
+#include "ft_nm.h"
 
 static char	get_section_char(uint8_t type, const char *sectname)
 {

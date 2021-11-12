@@ -1,4 +1,4 @@
-#include "header.h"
+#include "ft_nm.h"
 
 struct section_64	**get_empty_sections_array_x64(void *ptr)
 {

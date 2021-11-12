@@ -14,7 +14,7 @@
 
 int	ft_countdigits(int n)
 {
-	int res;
+	int	res;
 
 	if (n == 0)
 		return (1);

@@ -14,7 +14,7 @@
 
 long	ft_pow(int a, int b)
 {
-	long res;
+	long	res;
 
 	if (b == 0)
 		return (1);

@@ -29,6 +29,7 @@ char	*ft_type_to_str(va_list ap, t_specif spec)
 		if (spec.size[0] != 'l')
 			arg = (int)arg;
 	}
+	res = NULL;
 	if (spec.type == 'x')
 		res = ft_for_haxedecimal(arg, spec);
 	else if (spec.type == 'X')
@@ -37,12 +38,10 @@ char	*ft_type_to_str(va_list ap, t_specif spec)
 		res = ft_for_decimal(arg, spec, 10);
 	else if (spec.type == 'o')
 		res = ft_for_decimal(arg, spec, 8);
-	else
-		return (NULL);
 	return (res);
 }
 
-int			ft_solve_type(va_list ap, int fd, t_specif spec)
+int	ft_solve_type(va_list ap, int fd, t_specif spec)
 {
 	char	*str;
 	int		i;
@@ -52,8 +51,8 @@ int			ft_solve_type(va_list ap, int fd, t_specif spec)
 		return (ft_for_char(ap, &spec));
 	else if (spec.type == 's')
 		str = ft_for_string(ap, spec);
-	else if (spec.type == 'u' || spec.type == 'x' ||
-	spec.type == 'X' || spec.type == 'o' || spec.type == 'd' ||
+	else if (spec.type == 'u' || spec.type == 'x' || \
+	spec.type == 'X' || spec.type == 'o' || spec.type == 'd' || \
 	spec.type == 'i')
 		str = ft_type_to_str(ap, spec);
 	else if (spec.type == 'p')
@@ -91,7 +90,7 @@ const char	*ft_search_spec(const char *format, t_specif *spec, va_list ap)
 	return (format);
 }
 
-void		ft_spec_new(t_specif *spec)
+void	ft_spec_new(t_specif *spec)
 {
 	spec->sharp = 0;
 	spec->zero = 0;
@@ -107,7 +106,7 @@ void		ft_spec_new(t_specif *spec)
 	spec->res = NULL;
 }
 
-int			ft_fdprintf(int fd, const char *format, ...)
+int	ft_fdprintf(int fd, const char *format, ...)
 {
 	int			i;
 	va_list		ap;
@@ -124,7 +123,8 @@ int			ft_fdprintf(int fd, const char *format, ...)
 		if (*format == '%')
 		{
 			format++;
-			if ((format = ft_search_spec(format, &spec, ap)) == NULL)
+			format = ft_search_spec(format, &spec, ap);
+			if (format == NULL)
 				return (0);
 			i += ft_solve_type(ap, fd, spec);
 		}

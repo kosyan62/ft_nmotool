@@ -12,7 +12,7 @@
 
 #include "libftprintf.h"
 
-int			ft_printf(const char *format, ...)
+int	ft_printf(const char *format, ...)
 {
 	int			i;
 	va_list		ap;

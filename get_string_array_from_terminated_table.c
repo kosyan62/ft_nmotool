@@ -1,4 +1,4 @@
-#include "header.h"
+#include "ft_nm.h"
 
 char	**get_string_array_from_terminated_table(char *table, size_t size)
 {

@@ -31,10 +31,10 @@ char	*pointer(void *ptr)
 
 char	*ft_for_p(va_list ap, t_specif spec)
 {
-	char *res;
-	void *ptr;
+	char	*res;
+	void	*ptr;
 
-	ptr = va_arg(ap, void*);
+	ptr = va_arg(ap, void *);
 	res = pointer(ptr);
 	if (spec.precision == 0)
 		res[2] = 0;

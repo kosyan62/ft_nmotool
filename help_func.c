@@ -1,4 +1,4 @@
-#include "header.h"
+#include "ft_nm.h"
 
 void	delete_printable(t_forprint **printable_table)
 {
