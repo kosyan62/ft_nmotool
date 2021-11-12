@@ -65,3 +65,8 @@ void	*find_symtab_x64(void *header64)
 	}
 	return (load_command);
 }
+
+void	delete_sections_array(struct section **section_array)
+{
+
+}

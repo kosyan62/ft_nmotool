@@ -24,10 +24,10 @@ void	print_pritty_element_symtab(t_forprint **pr)
 		if (!pr[i]->debug)
 		{
 			if (pr[i]->n_value)
-				printf("%0*llx ", indent, pr[i]->n_value);
+				ft_printf("%0*llx ", indent, pr[i]->n_value);
 			else
-				printf("%*s ", indent, "");
-			printf("%c %s\n", pr[i]->letter, pr[i]->strx);
+				ft_printf("%*s ", indent, "");
+			ft_printf("%c %s\n", pr[i]->letter, pr[i]->strx);
 		}
 		i++;
 	}

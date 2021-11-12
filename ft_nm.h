@@ -34,5 +34,6 @@ t_forprint			**handle_fat_format(void *raw_binary_info, int arch_type);
 void				*find_symtab_x32(void *header);
 void				*find_symtab_x64(void *header);
 void	print_pritty_element_symtab(t_forprint **pr);
+void	delete_sections_array(struct section **section_array);
 
 #endif

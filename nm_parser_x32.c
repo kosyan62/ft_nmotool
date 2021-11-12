@@ -109,5 +109,6 @@ t_forprint	**get_sections_print_table_x32(void *raw_binary_info)
 	sym_str = raw_binary_info + sym_cmd->stroff;
 	table = fill_sections_print_table_x32(\
 							sections_array, sym_cmd, sym_str, nlist);
+	free(sections_array);
 	return (table);
 }
