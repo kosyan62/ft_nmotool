@@ -83,7 +83,7 @@
 		<Unit filename="/Users/mgena/CLionProjects/nm-otool/ft_nm.h">
 			<Option target="nm_otool"/>
 		</Unit>
-		<Unit filename="/Users/mgena/CLionProjects/nm-otool/get_string_array_from_terminated_table.c">
+		<Unit filename="/Users/mgena/CLionProjects/nm-otool/get_architecture_type.c">
 			<Option target="nm_otool"/>
 		</Unit>
 		<Unit filename="/Users/mgena/CLionProjects/nm-otool/handle_fat.c">
@@ -348,9 +348,6 @@
 			<Option target="nm_otool"/>
 		</Unit>
 		<Unit filename="/Users/mgena/CLionProjects/nm-otool/nm_parser_x64.c">
-			<Option target="nm_otool"/>
-		</Unit>
-		<Unit filename="/Users/mgena/CLionProjects/nm-otool/parse_macho/get_architecture_type.c">
 			<Option target="nm_otool"/>
 		</Unit>
 		<Unit filename="/Users/mgena/CLionProjects/nm-otool/parse_macho/parse_macho.h">

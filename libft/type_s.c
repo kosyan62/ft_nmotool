@@ -78,10 +78,13 @@ void	stroka_25(char **str, char s, char **res, int zeropoint)
 		(*res)[zeropoint + 1] = '0';
 		(*res)[0] = ' ';
 	}
-	else if ((*str)[1] == 'x' && s == '0')
+	else if (ft_strlen(*str) > 1)
 	{
-		(*res)[zeropoint + 2] = '0';
-		(*res)[1] = 'x';
+		if ((*str)[1] == 'x' && s == '0')
+		{
+			(*res)[zeropoint + 2] = '0';
+			(*res)[1] = 'x';
+		}
 	}
 }
 
@@ -94,7 +97,7 @@ char	*ft_strright(char **str, int wide, char s)
 	wide -= ft_strlen(*str) + 1;
 	if (wide < 0)
 		return (*str);
-	res = ft_strnew(wide + ft_strlen(*str));
+	res = ft_strnew(wide + 1 + ft_strlen(*str));
 	zeropoint = wide;
 	while (wide >= 0)
 		res[wide--] = s;

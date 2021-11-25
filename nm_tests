@@ -1,0 +1,13 @@
+#!/bin/zsh
+EXUTABLE="/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/nm_otool"
+FILES="/sbin/* /bin/*"
+rm a b a_err b_err
+touch a
+touch b
+for f in /Users/mgena/.brew/bin/* /usr/local/bin/* /usr/bin/* /bin/* /usr/sbin/* /sbin/* /usr/local/munki; do
+  echo $f >>a
+  echo $f >>b
+  $EXUTABLE $f >>a 2>>a_err
+  nm $f >>b 2>>b_err
+done
+  diff a b > diff_file

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/mgena/CLionProjects/nm-otool/get_string_array_from_terminated_table.c" "/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.o"
+  "/Users/mgena/CLionProjects/nm-otool/get_architecture_type.c" "/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles/nm_otool.dir/get_architecture_type.c.o"
   "/Users/mgena/CLionProjects/nm-otool/handle_fat.c" "/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles/nm_otool.dir/handle_fat.c.o"
   "/Users/mgena/CLionProjects/nm-otool/help_func.c" "/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles/nm_otool.dir/help_func.c.o"
   "/Users/mgena/CLionProjects/nm-otool/libft/colour_extra.c" "/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles/nm_otool.dir/libft/colour_extra.c.o"
@@ -97,7 +97,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/mgena/CLionProjects/nm-otool/main.c" "/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles/nm_otool.dir/main.c.o"
   "/Users/mgena/CLionProjects/nm-otool/nm_parser_x32.c" "/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles/nm_otool.dir/nm_parser_x32.c.o"
   "/Users/mgena/CLionProjects/nm-otool/nm_parser_x64.c" "/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles/nm_otool.dir/nm_parser_x64.c.o"
-  "/Users/mgena/CLionProjects/nm-otool/parse_macho/get_architecture_type.c" "/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.o"
   "/Users/mgena/CLionProjects/nm-otool/segment_letter.c" "/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles/nm_otool.dir/segment_letter.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

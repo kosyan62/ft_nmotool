@@ -129,29 +129,29 @@ nm_otool/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nm_otool.dir/build.make CMakeFiles/nm_otool.dir/build
 .PHONY : nm_otool/fast
 
-get_string_array_from_terminated_table.o: get_string_array_from_terminated_table.c.o
-.PHONY : get_string_array_from_terminated_table.o
+get_architecture_type.o: get_architecture_type.c.o
+.PHONY : get_architecture_type.o
 
 # target to build an object file
-get_string_array_from_terminated_table.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nm_otool.dir/build.make CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.o
-.PHONY : get_string_array_from_terminated_table.c.o
+get_architecture_type.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nm_otool.dir/build.make CMakeFiles/nm_otool.dir/get_architecture_type.c.o
+.PHONY : get_architecture_type.c.o
 
-get_string_array_from_terminated_table.i: get_string_array_from_terminated_table.c.i
-.PHONY : get_string_array_from_terminated_table.i
+get_architecture_type.i: get_architecture_type.c.i
+.PHONY : get_architecture_type.i
 
 # target to preprocess a source file
-get_string_array_from_terminated_table.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nm_otool.dir/build.make CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.i
-.PHONY : get_string_array_from_terminated_table.c.i
+get_architecture_type.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nm_otool.dir/build.make CMakeFiles/nm_otool.dir/get_architecture_type.c.i
+.PHONY : get_architecture_type.c.i
 
-get_string_array_from_terminated_table.s: get_string_array_from_terminated_table.c.s
-.PHONY : get_string_array_from_terminated_table.s
+get_architecture_type.s: get_architecture_type.c.s
+.PHONY : get_architecture_type.s
 
 # target to generate assembly for a file
-get_string_array_from_terminated_table.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nm_otool.dir/build.make CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.s
-.PHONY : get_string_array_from_terminated_table.c.s
+get_architecture_type.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nm_otool.dir/build.make CMakeFiles/nm_otool.dir/get_architecture_type.c.s
+.PHONY : get_architecture_type.c.s
 
 handle_fat.o: handle_fat.c.o
 .PHONY : handle_fat.o
@@ -2265,30 +2265,6 @@ nm_parser_x64.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nm_otool.dir/build.make CMakeFiles/nm_otool.dir/nm_parser_x64.c.s
 .PHONY : nm_parser_x64.c.s
 
-parse_macho/get_architecture_type.o: parse_macho/get_architecture_type.c.o
-.PHONY : parse_macho/get_architecture_type.o
-
-# target to build an object file
-parse_macho/get_architecture_type.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nm_otool.dir/build.make CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.o
-.PHONY : parse_macho/get_architecture_type.c.o
-
-parse_macho/get_architecture_type.i: parse_macho/get_architecture_type.c.i
-.PHONY : parse_macho/get_architecture_type.i
-
-# target to preprocess a source file
-parse_macho/get_architecture_type.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nm_otool.dir/build.make CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.i
-.PHONY : parse_macho/get_architecture_type.c.i
-
-parse_macho/get_architecture_type.s: parse_macho/get_architecture_type.c.s
-.PHONY : parse_macho/get_architecture_type.s
-
-# target to generate assembly for a file
-parse_macho/get_architecture_type.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nm_otool.dir/build.make CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.s
-.PHONY : parse_macho/get_architecture_type.c.s
-
 segment_letter.o: segment_letter.c.o
 .PHONY : segment_letter.o
 
@@ -2322,9 +2298,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... nm_otool"
-	@echo "... get_string_array_from_terminated_table.o"
-	@echo "... get_string_array_from_terminated_table.i"
-	@echo "... get_string_array_from_terminated_table.s"
+	@echo "... get_architecture_type.o"
+	@echo "... get_architecture_type.i"
+	@echo "... get_architecture_type.s"
 	@echo "... handle_fat.o"
 	@echo "... handle_fat.i"
 	@echo "... handle_fat.s"
@@ -2589,9 +2565,6 @@ help:
 	@echo "... nm_parser_x64.o"
 	@echo "... nm_parser_x64.i"
 	@echo "... nm_parser_x64.s"
-	@echo "... parse_macho/get_architecture_type.o"
-	@echo "... parse_macho/get_architecture_type.i"
-	@echo "... parse_macho/get_architecture_type.s"
 	@echo "... segment_letter.o"
 	@echo "... segment_letter.i"
 	@echo "... segment_letter.s"

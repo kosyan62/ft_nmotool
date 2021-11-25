@@ -79,18 +79,18 @@ CMakeFiles/nm_otool.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nm_otool.dir/main.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mgena/CLionProjects/nm-otool/main.c -o CMakeFiles/nm_otool.dir/main.c.s
 
-CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.o: CMakeFiles/nm_otool.dir/flags.make
-CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.o: ../parse_macho/get_architecture_type.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.o -c /Users/mgena/CLionProjects/nm-otool/parse_macho/get_architecture_type.c
+CMakeFiles/nm_otool.dir/get_architecture_type.c.o: CMakeFiles/nm_otool.dir/flags.make
+CMakeFiles/nm_otool.dir/get_architecture_type.c.o: ../get_architecture_type.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/nm_otool.dir/get_architecture_type.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nm_otool.dir/get_architecture_type.c.o -c /Users/mgena/CLionProjects/nm-otool/get_architecture_type.c
 
-CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mgena/CLionProjects/nm-otool/parse_macho/get_architecture_type.c > CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.i
+CMakeFiles/nm_otool.dir/get_architecture_type.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nm_otool.dir/get_architecture_type.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mgena/CLionProjects/nm-otool/get_architecture_type.c > CMakeFiles/nm_otool.dir/get_architecture_type.c.i
 
-CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mgena/CLionProjects/nm-otool/parse_macho/get_architecture_type.c -o CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.s
+CMakeFiles/nm_otool.dir/get_architecture_type.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nm_otool.dir/get_architecture_type.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mgena/CLionProjects/nm-otool/get_architecture_type.c -o CMakeFiles/nm_otool.dir/get_architecture_type.c.s
 
 CMakeFiles/nm_otool.dir/libft/colour_extra.c.o: CMakeFiles/nm_otool.dir/flags.make
 CMakeFiles/nm_otool.dir/libft/colour_extra.c.o: ../libft/colour_extra.c
@@ -1132,22 +1132,9 @@ CMakeFiles/nm_otool.dir/libft/ft_pow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nm_otool.dir/libft/ft_pow.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mgena/CLionProjects/nm-otool/libft/ft_pow.c -o CMakeFiles/nm_otool.dir/libft/ft_pow.c.s
 
-CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.o: CMakeFiles/nm_otool.dir/flags.make
-CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.o: ../get_string_array_from_terminated_table.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.o -c /Users/mgena/CLionProjects/nm-otool/get_string_array_from_terminated_table.c
-
-CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mgena/CLionProjects/nm-otool/get_string_array_from_terminated_table.c > CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.i
-
-CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mgena/CLionProjects/nm-otool/get_string_array_from_terminated_table.c -o CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.s
-
 CMakeFiles/nm_otool.dir/libft/ft_bubble_sort.c.o: CMakeFiles/nm_otool.dir/flags.make
 CMakeFiles/nm_otool.dir/libft/ft_bubble_sort.c.o: ../libft/ft_bubble_sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/nm_otool.dir/libft/ft_bubble_sort.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/nm_otool.dir/libft/ft_bubble_sort.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nm_otool.dir/libft/ft_bubble_sort.c.o -c /Users/mgena/CLionProjects/nm-otool/libft/ft_bubble_sort.c
 
 CMakeFiles/nm_otool.dir/libft/ft_bubble_sort.c.i: cmake_force
@@ -1160,7 +1147,7 @@ CMakeFiles/nm_otool.dir/libft/ft_bubble_sort.c.s: cmake_force
 
 CMakeFiles/nm_otool.dir/nm_parser_x32.c.o: CMakeFiles/nm_otool.dir/flags.make
 CMakeFiles/nm_otool.dir/nm_parser_x32.c.o: ../nm_parser_x32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/nm_otool.dir/nm_parser_x32.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/nm_otool.dir/nm_parser_x32.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nm_otool.dir/nm_parser_x32.c.o -c /Users/mgena/CLionProjects/nm-otool/nm_parser_x32.c
 
 CMakeFiles/nm_otool.dir/nm_parser_x32.c.i: cmake_force
@@ -1173,7 +1160,7 @@ CMakeFiles/nm_otool.dir/nm_parser_x32.c.s: cmake_force
 
 CMakeFiles/nm_otool.dir/nm_parser_x64.c.o: CMakeFiles/nm_otool.dir/flags.make
 CMakeFiles/nm_otool.dir/nm_parser_x64.c.o: ../nm_parser_x64.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/nm_otool.dir/nm_parser_x64.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/nm_otool.dir/nm_parser_x64.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nm_otool.dir/nm_parser_x64.c.o -c /Users/mgena/CLionProjects/nm-otool/nm_parser_x64.c
 
 CMakeFiles/nm_otool.dir/nm_parser_x64.c.i: cmake_force
@@ -1186,7 +1173,7 @@ CMakeFiles/nm_otool.dir/nm_parser_x64.c.s: cmake_force
 
 CMakeFiles/nm_otool.dir/segment_letter.c.o: CMakeFiles/nm_otool.dir/flags.make
 CMakeFiles/nm_otool.dir/segment_letter.c.o: ../segment_letter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/nm_otool.dir/segment_letter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/nm_otool.dir/segment_letter.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nm_otool.dir/segment_letter.c.o -c /Users/mgena/CLionProjects/nm-otool/segment_letter.c
 
 CMakeFiles/nm_otool.dir/segment_letter.c.i: cmake_force
@@ -1199,7 +1186,7 @@ CMakeFiles/nm_otool.dir/segment_letter.c.s: cmake_force
 
 CMakeFiles/nm_otool.dir/help_func.c.o: CMakeFiles/nm_otool.dir/flags.make
 CMakeFiles/nm_otool.dir/help_func.c.o: ../help_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/nm_otool.dir/help_func.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/nm_otool.dir/help_func.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nm_otool.dir/help_func.c.o -c /Users/mgena/CLionProjects/nm-otool/help_func.c
 
 CMakeFiles/nm_otool.dir/help_func.c.i: cmake_force
@@ -1212,7 +1199,7 @@ CMakeFiles/nm_otool.dir/help_func.c.s: cmake_force
 
 CMakeFiles/nm_otool.dir/handle_fat.c.o: CMakeFiles/nm_otool.dir/flags.make
 CMakeFiles/nm_otool.dir/handle_fat.c.o: ../handle_fat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/nm_otool.dir/handle_fat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/nm_otool.dir/handle_fat.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nm_otool.dir/handle_fat.c.o -c /Users/mgena/CLionProjects/nm-otool/handle_fat.c
 
 CMakeFiles/nm_otool.dir/handle_fat.c.i: cmake_force
@@ -1225,7 +1212,7 @@ CMakeFiles/nm_otool.dir/handle_fat.c.s: cmake_force
 
 CMakeFiles/nm_otool.dir/libft/ft_swap_long.c.o: CMakeFiles/nm_otool.dir/flags.make
 CMakeFiles/nm_otool.dir/libft/ft_swap_long.c.o: ../libft/ft_swap_long.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/nm_otool.dir/libft/ft_swap_long.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/nm_otool.dir/libft/ft_swap_long.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nm_otool.dir/libft/ft_swap_long.c.o -c /Users/mgena/CLionProjects/nm-otool/libft/ft_swap_long.c
 
 CMakeFiles/nm_otool.dir/libft/ft_swap_long.c.i: cmake_force
@@ -1238,7 +1225,7 @@ CMakeFiles/nm_otool.dir/libft/ft_swap_long.c.s: cmake_force
 
 CMakeFiles/nm_otool.dir/libft/ft_qsort.c.o: CMakeFiles/nm_otool.dir/flags.make
 CMakeFiles/nm_otool.dir/libft/ft_qsort.c.o: ../libft/ft_qsort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/nm_otool.dir/libft/ft_qsort.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/nm_otool.dir/libft/ft_qsort.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nm_otool.dir/libft/ft_qsort.c.o -c /Users/mgena/CLionProjects/nm-otool/libft/ft_qsort.c
 
 CMakeFiles/nm_otool.dir/libft/ft_qsort.c.i: cmake_force
@@ -1252,7 +1239,7 @@ CMakeFiles/nm_otool.dir/libft/ft_qsort.c.s: cmake_force
 # Object files for target nm_otool
 nm_otool_OBJECTS = \
 "CMakeFiles/nm_otool.dir/main.c.o" \
-"CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.o" \
+"CMakeFiles/nm_otool.dir/get_architecture_type.c.o" \
 "CMakeFiles/nm_otool.dir/libft/colour_extra.c.o" \
 "CMakeFiles/nm_otool.dir/libft/ft_abortalloc.c.o" \
 "CMakeFiles/nm_otool.dir/libft/ft_atoi.c.o" \
@@ -1333,7 +1320,6 @@ nm_otool_OBJECTS = \
 "CMakeFiles/nm_otool.dir/libft/type_i_d.c.o" \
 "CMakeFiles/nm_otool.dir/libft/type_s.c.o" \
 "CMakeFiles/nm_otool.dir/libft/ft_pow.c.o" \
-"CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.o" \
 "CMakeFiles/nm_otool.dir/libft/ft_bubble_sort.c.o" \
 "CMakeFiles/nm_otool.dir/nm_parser_x32.c.o" \
 "CMakeFiles/nm_otool.dir/nm_parser_x64.c.o" \
@@ -1347,7 +1333,7 @@ nm_otool_OBJECTS = \
 nm_otool_EXTERNAL_OBJECTS =
 
 nm_otool: CMakeFiles/nm_otool.dir/main.c.o
-nm_otool: CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.o
+nm_otool: CMakeFiles/nm_otool.dir/get_architecture_type.c.o
 nm_otool: CMakeFiles/nm_otool.dir/libft/colour_extra.c.o
 nm_otool: CMakeFiles/nm_otool.dir/libft/ft_abortalloc.c.o
 nm_otool: CMakeFiles/nm_otool.dir/libft/ft_atoi.c.o
@@ -1428,7 +1414,6 @@ nm_otool: CMakeFiles/nm_otool.dir/libft/type_c.c.o
 nm_otool: CMakeFiles/nm_otool.dir/libft/type_i_d.c.o
 nm_otool: CMakeFiles/nm_otool.dir/libft/type_s.c.o
 nm_otool: CMakeFiles/nm_otool.dir/libft/ft_pow.c.o
-nm_otool: CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.o
 nm_otool: CMakeFiles/nm_otool.dir/libft/ft_bubble_sort.c.o
 nm_otool: CMakeFiles/nm_otool.dir/nm_parser_x32.c.o
 nm_otool: CMakeFiles/nm_otool.dir/nm_parser_x64.c.o
@@ -1439,7 +1424,7 @@ nm_otool: CMakeFiles/nm_otool.dir/libft/ft_swap_long.c.o
 nm_otool: CMakeFiles/nm_otool.dir/libft/ft_qsort.c.o
 nm_otool: CMakeFiles/nm_otool.dir/build.make
 nm_otool: CMakeFiles/nm_otool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Linking C executable nm_otool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mgena/CLionProjects/nm-otool/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Linking C executable nm_otool"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nm_otool.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

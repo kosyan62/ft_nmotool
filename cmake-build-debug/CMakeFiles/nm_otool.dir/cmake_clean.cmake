@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/nm_otool.dir/get_string_array_from_terminated_table.c.o"
+  "CMakeFiles/nm_otool.dir/get_architecture_type.c.o"
   "CMakeFiles/nm_otool.dir/handle_fat.c.o"
   "CMakeFiles/nm_otool.dir/help_func.c.o"
   "CMakeFiles/nm_otool.dir/libft/colour_extra.c.o"
@@ -88,7 +88,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/nm_otool.dir/main.c.o"
   "CMakeFiles/nm_otool.dir/nm_parser_x32.c.o"
   "CMakeFiles/nm_otool.dir/nm_parser_x64.c.o"
-  "CMakeFiles/nm_otool.dir/parse_macho/get_architecture_type.c.o"
   "CMakeFiles/nm_otool.dir/segment_letter.c.o"
   "nm_otool"
   "nm_otool.pdb"

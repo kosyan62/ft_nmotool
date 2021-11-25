@@ -5,20 +5,22 @@
 
 void	swap(void *v1, void *v2, int size)
 {
-	char	buffer[size];
+	char	*buffer;
 
+	buffer = ft_memalloc(size);
 	ft_memcpy(buffer, v1, size);
 	ft_memcpy(v1, v2, size);
 	ft_memcpy(v2, buffer, size);
+	free(buffer);
 }
 
 void	ft_qsort(void *v, int size, int left, int right,
 			  int (*comp)(void *, void *))
 {
-	void *vt;
-	void *v3;
-	void *vl;
-	void *vr;
+	void	*vt;
+	void	*v3;
+	void	*vl;
+	void	*vr;
 
 	int i, last, mid = (left + right) / 2;
 	if (left >= right)

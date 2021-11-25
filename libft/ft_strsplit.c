@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-static size_t		ft_line(const char *s, char c, char *res)
+static size_t 		ft_line(const char *s, char c, char *res)
 {
 	size_t i;
 
